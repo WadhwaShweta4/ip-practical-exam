@@ -1,0 +1,94 @@
+/* Basic container styling for the quiz */
+.quiz-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title and header styling */
+  .quiz-container h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .quiz-container h3 {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling the quiz questions */
+  .quiz-container p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling the list of options */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Styling for the radio buttons and options */
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Buttons styling */
+  .quiz-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .quiz-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the stop quiz button */
+  .stop-btn {
+    background-color: #dc3545;
+  }
+  
+  /* Stop quiz button hover effect */
+  .stop-btn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Additional styling for score display after quiz */
+  .quiz-container p.score {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  /* Additional styling for restart button */
+  .quiz-container .quiz-btn.restart {
+    background-color: #28a745;
+  }
+  
+  .quiz-container .quiz-btn.restart:hover {
+    background-color: #218838;
+  }
+  
